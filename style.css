@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #05204f;
+  padding: 10px 20%; /* Ajout de padding pour un espace autour du contenu */
+  box-shadow: 4px 8px 8px #8b8d91;
+  z-index: 1; /* Ombre plus foncée */
+  text-align: center;
+}
+.navbar-brand {
+  color: #df3639;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  color: #fefefe; /* Couleur du texte du toggle */
+  display: flex;
+  justify-content: center; /* Centre le contenu horizontalement */
+  align-items: center; /* Centre le contenu verticalement */
+}
+
+.navbar-toggler:hover {
+  color: #df3639; /* Couleur du texte du toggle au survol */
+}
+.navbar-nav {
+  align-items: center; /* Centrer verticalement les éléments */
+}
+.navbar-nav .nav-link {
+  color: #fefefe;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover {
+  color: #df3639;
+  text-decoration: underline;
+}
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.logo2 {
+  display: block;
+}
+
+footer {
+  z-index: 0;
+  background-color: #05204f;
+  color: #fefefe; /* Couleur du texte dans le footer */
+}
+
+.butt {
+  align-items: center;
+  color: #fefefe;
+  background-color: #05204f;
+  border: 0;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px #05204f;
+  align-items: center;
+}
+
+.butt:hover {
+  color: #f48183;
+  box-shadow: 6px 6px 12px #05204f;
+}
+.card {
+  box-shadow: 6px 6px 12px #d9dce4;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  box-shadow: 10px 10px 18px #d9dce4;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Assure que le bouton est au-dessus des autres éléments */
+}
+.whatsapp-button a {
+  display: block;
+  width: 65px; /* Largeur du bouton */
+  height: 65px; /* Hauteur du bouton */
+  background-color: #25d366; /* Couleur de fond de WhatsApp */
+  border-radius: 50%; /* Pour rendre le bouton rond */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  text-align: center;
+  line-height: 60px; /* Pour centrer l'icône verticalement */
+}
+.whatsapp-button img {
+  width: 40px; /* Taille de l'icône WhatsApp */
+  margin-top: 0%; /* Ajustement pour centrer verticalement l'icône */
+}
+.custom-card {
+  height: 600px;
+}
+
+.btn0:hover {
+  color: #df3639;
+  background-color: #fefefe;
+}
+
+.btn-show-more {
+  display: none; /* Initialement caché */
+}
+
+.carousel {
+  margin-top: 80px;
+}
+
+.carousel-caption {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Fond blanc avec opacité de 50% */
+  width: 100%; /* Largeur de 100% */
+  padding: 10px; /* Rembourrage pour un espace autour du texte */
+  text-align: center; /* Centrer le texte à l'intérieur de la légende */
+  margin-left: -15%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: #000; /* Couleur du texte (noir) */
+}
+
+.butt2 {
+  color: #fefefe;
+  background-color: #df3639;
+  border: 0;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px #c17e7f;
+  margin-bottom: 15px; /* Espacement en haut du bouton */
+  margin-left: 70px; /* Déplace le bouton complètement à droite */
+}
+
+/* contact */
+
+.contact-info {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto; /* Centrer horizontalement */
+  text-align: center;
+}
+
+.contact-info h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #666;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-info li strong {
+  font-weight: bold;
+}
